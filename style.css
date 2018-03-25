@@ -1,3 +1,21 @@
 .entirePage{
-    
+    font-family: monospace;
+    background-color: lavender;
+}
+.centerText{
+    font-family: cursive;
+    text-align: center;
+    font-size: 800%;
+    color: black;
+}
+.aboutMe{
+    font-family: Cambria;
+    text-align: left;
+    font-size: 300%;
+    color: black;
+}
+.experience{
+    font-family: Cambria;
+    background-color: #ffe6ff;
+    color: black;
 }
