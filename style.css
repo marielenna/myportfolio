@@ -1,5 +1,5 @@
 .entirePage{
-    font-family: monospace;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-seri;
     background-color: lavender;
 }
 .centerText{
@@ -7,15 +7,54 @@
     text-align: center;
     font-size: 800%;
     color: black;
+
+    /*Nav Bar */
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+/*Body of the pg*/
+.aboutTitle{
+    font-family: cursive;
+    font-size: 300%;
+    color: grey;
+    text-align: center;
 }
 .aboutMe{
-    font-family: Cambria;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: left;
     font-size: 300%;
     color: black;
 }
+.experienceTitle{
+    font-family: cursive;
+    font-size: 300%;
+    color: grey;
+    text-align: center;
+}
+
 .experience{
-    font-family: Cambria;
-    background-color: #ffe6ff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: black;
 }
