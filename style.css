@@ -2,14 +2,43 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-seri;
     background-color: lavender;
 }
-.centerText{
-    font-family: cursive;
-    text-align: center;
-    font-size: 800%;
-    color: black;
 
-    /*Nav Bar */
+/*Banner*/
+body, html {
+    height: 50%;
+    margin: 0;
 }
+.banner-image {
+    background-image: url("./images/banner.png");
+    height: 300%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/*Social Media*/
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/*hover effect */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/*linkedin*/
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+/*Nav Bar */
 ul {
     list-style-type: none;
     margin: 0;
@@ -32,6 +61,13 @@ li a {
 
 li a:hover {
     background-color: #111;
+}
+/*Top title*/
+.centerText{
+    font-family: cursive;
+    text-align: center;
+    font-size: 800%;
+    color: black;
 }
 
 /*Body of the pg*/
@@ -57,4 +93,10 @@ li a:hover {
 .experience{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: black;
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
