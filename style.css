@@ -1,6 +1,6 @@
 .entirePage{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-seri;
-    background-color: lavender;
+    background-color: white;
 }
 
 /*Banner*/
@@ -18,13 +18,13 @@ body, html {
 }
 
 /*Social Media*/
-/* Style all font awesome icons */
 .fa {
     padding: 20px;
     font-size: 30px;
     width: 50px;
     text-align: center;
     text-decoration: none;
+    margin-left: 200px;
 }
 
 /*hover effect */
@@ -32,11 +32,6 @@ body, html {
     opacity: 0.7;
 }
 
-/*linkedin*/
-.fa-linkedin {
-    background: #007bb5;
-    color: white;
-}
 
 /*Nav Bar */
 ul {
@@ -65,7 +60,7 @@ li a:hover {
 /*Top title*/
 .centerText{
     font-family: cursive;
-    text-align: center;
+    text-align: left;
     font-size: 800%;
     color: black;
 }
@@ -79,10 +74,11 @@ li a:hover {
 }
 .aboutMe{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align: left;
+    text-align: right;
     font-size: 300%;
     color: black;
 }
+
 .experienceTitle{
     font-family: cursive;
     font-size: 300%;
@@ -90,13 +86,32 @@ li a:hover {
     text-align: center;
 }
 
-.experience{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+#experience{
+    font-family: 'Lucida Sans';
     color: black;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+#experience2{
+    font-family: 'Lucida Sans';
+    color: black;
+    margin-top: 60px;
+    margin-left: 60px;
 }
 .center{
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+}
+
+#contact{
+    margin-top: 200px;
+    margin-left: 40px;
+}
+/*linkedin*/
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
 }
