@@ -99,6 +99,7 @@ li a:hover {
     margin-top: 60px;
     margin-left: 60px;
 }
+
 .center{
     display: block;
     margin-left: auto;
@@ -106,7 +107,7 @@ li a:hover {
     width: 50%;
 }
 
-#contact{
+.contact{
     margin-top: 200px;
     margin-left: 40px;
 }
